@@ -1,0 +1,102 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    margin: 50px 130px;
+}
+
+/* shared css */
+.headingtext {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.secondarytext {
+    color: #424247;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* navbar css */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftarea {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightarea ul {
+    display: flex;
+    gap: 45px;
+}
+
+.rightarea li {
+    list-style: none;
+}
+
+/* banner section */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group13.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannercontent p {
+    display: block;
+    color: #fff;
+    max-width: 670px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.findsection {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+
+.findsection input,
+select,
+button {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+    padding-left: 15px;
+}
+
+.findsection input::placeholder {
+    color: #424247;
+}
+
+.custom_select {
+    color: #424247;
+}
+
+.findsection button {
+    background-color: #FF5400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 10px;
+}
