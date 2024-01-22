@@ -19,6 +19,15 @@ body {
     font-weight: 400;
 }
 
+.shared_btn_css {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
 /* navbar css */
 nav {
     display: flex;
@@ -140,6 +149,101 @@ button {
     gap: 10px;
 }
 
+/* popular sector css */
+.popular_tour {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.popular_tour_text {
+    max-width: 570px;
+}
+
+/* chose your dest sector */
+.choose_your_dest {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* .cyd_text{
+    text-align: center;
+} */
+.cyd_text p {
+    max-width: 650px;
+    margin: 25px auto 50px auto;
+}
+
+.cyd_image {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.row_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+    gap: 25px;
+}
+
+.common_cyd_bg_properties {
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Maldives {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle5.png);
+}
+
+.Indonesia {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle8.png);
+}
+
+.row_2 {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 1fr;
+    height: 280px;
+    gap: 25px;
+}
+
+.SriLanka {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle6.png);
+}
+
+.NorthAmerica {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle7.png);
+}
+
+.Kashmir {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle.png);
+}
+
+.row_3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 300px;
+    gap: 25px;
+}
+
+.Bangladesh {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle11.png);
+}
+
+.Bandarban {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle10.png);
+}
+
 /* for responsive */
 @media screen and (max-width:600px) {
     .headingtext {
@@ -149,7 +253,6 @@ button {
     }
 
     .secondarytext {
-        color: #FFF;
         font-size: 14px;
         font-weight: 400;
     }
@@ -187,13 +290,37 @@ button {
     .nav_for_mobile {
         display: flex;
     }
+    .mobile_nav a{
+        color: #FFF;
+    }
+
+    .popular_tour {
+        flex-direction: column;
+    }
+
+    .popular_image img {
+        width: 100%;
+    }
+
+
+    .row_1,
+    .row_2,
+    .row_3 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .common_cyd_bg_properties {
+        min-height: 170px;
+    }
 
 }
 
 @media screen and (min-width:601px) and (max-width:919px) {
-    body{
+    body {
         margin: 30px;
     }
+
     .findsection {
         flex-direction: column;
         max-width: 330px;
@@ -219,10 +346,14 @@ button {
     .nav_for_mobile {
         display: flex;
     }
+
+    .popular_tour {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width:920px) and (max-width:1080px) {
-    body{
+    body {
         margin: 30px;
     }
 
@@ -239,5 +370,9 @@ button {
 
     .rightarea ul {
         gap: 10px;
+    }
+
+    .popular_image {
+        width: 80%;
     }
 }
