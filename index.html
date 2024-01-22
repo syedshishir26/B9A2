@@ -23,20 +23,35 @@
             <h1 class="headingtext">Hero <span style="color: #FF5400;">Travel</span></h1>
         </div>
         <div class="rightarea">
-            <ul>
-                <li class="secondarytext"><span style="color: #FF5400;">Home</span></li>
-                <li class="secondarytext">Packages</li>
-                <li class="secondarytext">Testimonial</li>
-                <li class="secondarytext">Blog</li>
-                <li class="secondarytext">Contact</li>
-            </ul>
+            <div class="nav_for_desktop">
+                <ul>
+                    <li><a href="" class="secondarytext" style="color: #FF5400;">Home</a></li>
+                    <li><a href="" class="secondarytext">Packages</a></li>
+                    <li><a href="" class="secondarytext">Testimonial</a></li>
+                    <li><a href="" class="secondarytext">Blog</a></li>
+                    <li><a href="" class="secondarytext">Contact</a></li>
+                </ul>
+            </div>
+            <!-- took this idea from chatgpt but i write my code in my own -->
+            <div class="nav_for_mobile">
+                <div class="menu_icon"><img src="Images/menu.png"> </div>
+                <div class="mobile_nav">
+                    <a href="" class="secondarytext" style="color: #FF5400;">Home</a>
+                    <a href="" class="secondarytext">Packages</a>
+                    <a href="" class="secondarytext">Testimonial</a>
+                    <a href="" class="secondarytext">Blog</a>
+                    <a href="" class="secondarytext">Contact</a>
+                </div>
+
+            </div>
         </div>
     </nav>
     <!-- banner sector -->
     <div class="banner">
         <div class="bannercontent">
             <h1 class="headingtext" style="color: #fff;">Explore Your Travel</h1>
-            <p class="secondarytext">In the heart of the unknown, a tavern awaits, where whispers of tales untold fill
+            <p class="secondarytext" style="text-align: center;">In the heart of the unknown, a tavern awaits, where
+                whispers of tales untold fill
                 the air and every mug holds a sip of
                 adventure.</p>
             <div class="findsection">
@@ -56,9 +71,12 @@
                         <option value="">Trio</option>
                         <option value="">Group</option>
                     </select></div>
-                <button><span class="material-symbols-outlined">
-                    search
-                </span>Find Now</button>
+                <div class="inputandbutton">
+                    <button><span class="material-symbols-outlined">
+                            search
+                        </span>Find Now</button>
+                </div>
+
             </div>
         </div>
 
