@@ -168,9 +168,6 @@ button {
     text-align: center;
 }
 
-/* .cyd_text{
-    text-align: center;
-} */
 .cyd_text p {
     max-width: 650px;
     margin: 25px auto 50px auto;
@@ -360,6 +357,73 @@ button {
     width: 90%;
 }
 
+/* deals and discount */
+.deals_and_discount {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dnd_text p {
+    max-width: 400px;
+    margin: 25px auto 50px auto;
+}
+
+.dndc_bg {
+    height: 500px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+
+.dnd_card1 {
+    background-image: url(Images/Group39.png);
+}
+
+.dnd_card2 {
+    background-image: url(Images/Group40.png);
+}
+
+.dnd_card3 {
+    background-image: url(Images/Group39.png);
+}
+
+.dnd_card_info {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 570px;
+    float: right;
+    padding: 50px;
+}
+
+.dnd_heading_info {
+    display: flex;
+}
+
+.dnd_heading_info img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.dnd_heading_info p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.dnd_description {
+    text-align: left;
+}
+
+.dnd_price {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
 
 /* for responsive */
 @media screen and (max-width:600px) {
@@ -442,6 +506,25 @@ button {
         width: 90%;
     }
 
+    .dnd_card_info {
+        max-width: 300px;
+        padding: 5px;
+    }
+
+    .dnd_heading_info {
+        flex-wrap: wrap;
+    }
+
+    .banner,
+    .popular_tour,
+    .choose_your_dest,
+    .Extra_features,
+    .choose_us,
+    .deals_and_discount {
+        margin-top: 30px;
+    }
+
+
 }
 
 @media screen and (min-width:601px) and (max-width:919px) {
@@ -490,7 +573,8 @@ button {
     .extra_right img {
         width: 90%;
     }
-    .extra_left{
+
+    .extra_left {
         max-width: 400px;
         padding: 20px;
     }
@@ -523,5 +607,11 @@ button {
 
     .extra_right img {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1649px) {
+    .wcu_card {
+        width: 370px;
     }
 }
