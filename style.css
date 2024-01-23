@@ -2,7 +2,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
-body {
+main {
     margin: 50px 130px;
 }
 
@@ -364,7 +364,7 @@ button {
 }
 
 .dnd_text p {
-    max-width: 400px;
+    max-width: 500px;
     margin: 25px auto 50px auto;
 }
 
@@ -424,8 +424,118 @@ button {
     font-weight: 800;
 }
 
+/* get lost section */
+.get_lost {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.getlost_content {
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.getlost_video iframe {
+    border-radius: 16px;
+}
+
+/* Newsletter css */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.newsletter_left {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.newsletter_left hr {
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    width: 100%;
+}
+
+.newsletter_left input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 52px;
+    border: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.newsletter_right {
+    background-image: url(Images/Recta.png);
+    background-size: cover;
+    background-position: center;
+    width: 670px;
+    height: auto;
+    border-radius: 16px;
+    position: relative;
+}
+
+.badge {
+    padding: 0px 10px;
+    border-radius: 16px;
+    background-color: #FF5400;
+    text-align: center;
+    max-width: 250px;
+    position: absolute;
+    bottom: 40px;
+    right: 15px;
+    transform: rotate(-20deg);
+}
+
+.badge h4 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: -25px;
+}
+
+.badge h2 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 100px;
+    text-align: center;
+}
+
+
+/* .footer_company_name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} */
+.footer_company_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 /* for responsive */
+
 @media screen and (max-width:600px) {
     .headingtext {
         color: #131318;
@@ -442,7 +552,7 @@ button {
         width: 30px;
     }
 
-    body {
+    main {
         margin: 20px 20px;
     }
 
@@ -520,15 +630,48 @@ button {
     .choose_your_dest,
     .Extra_features,
     .choose_us,
-    .deals_and_discount {
+    .deals_and_discount,
+    .get_lost,
+    .newsletter {
         margin-top: 30px;
+    }
+
+    .getlost_video iframe {
+        width: 300px;
+        height: 169px;
+    }
+
+    .get_lost {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter_right {
+        width: 350px;
+        height: 262px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer_company_name {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_company_name h1>img {
+        width: 25px;
+        margin-right: 10px;
     }
 
 
 }
 
 @media screen and (min-width:601px) and (max-width:919px) {
-    body {
+    main {
         margin: 30px;
     }
 
@@ -579,10 +722,32 @@ button {
         padding: 20px;
     }
 
+    .get_lost {
+        flex-direction: column;
+    }
+
+    .getlost_video iframe {
+        width: 560px;
+        height: 315px;
+    }
+
+    .badge h4 {
+        color: #FFF;
+        font-size: .75rem;
+        font-weight: 400;
+        margin-bottom: 2px;
+    }
+
+    .badge h2 {
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
 }
 
 @media screen and (min-width:920px) and (max-width:1080px) {
-    body {
+    main {
         margin: 30px;
     }
 
@@ -608,10 +773,25 @@ button {
     .extra_right img {
         width: 90%;
     }
+
+    .getlost_video iframe {
+        width: 400px;
+        height: 225px;
+    }
+}
+
+
+@media screen and (min-width: 1081px) and (max-width: 1649px) {
+    .getlost_video iframe {
+        width: 600px;
+        height: 338px;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1649px) {
     .wcu_card {
         width: 370px;
     }
+
+
 }

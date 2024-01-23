@@ -16,294 +16,372 @@
 </head>
 
 <body>
-    <!-- nav sector -->
-    <nav>
-        <div class="leftarea">
-            <img src="Images/Group400712.png">
-            <h1 class="headingtext">Hexa <span style="color: #FF5400;">Travel</span></h1>
+    <main>
+        <!-- nav sector -->
+        <nav>
+            <div class="leftarea">
+                <img src="Images/Group400712.png">
+                <h1 class="headingtext">Hexa <span style="color: #FF5400;">Travel</span></h1>
+            </div>
+            <div class="rightarea">
+                <div class="nav_for_desktop">
+                    <ul>
+                        <li><a href="" class="secondarytext" style="color: #FF5400;">Home</a></li>
+                        <li><a href="" class="secondarytext">Packages</a></li>
+                        <li><a href="" class="secondarytext">Testimonial</a></li>
+                        <li><a href="" class="secondarytext">Blog</a></li>
+                        <li><a href="" class="secondarytext">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- took this idea from chatgpt but i write my code in my own -->
+                <div class="nav_for_mobile">
+                    <div class="menu_icon"><img src="Images/menu.png"> </div>
+                    <div class="mobile_nav">
+                        <a href="" class="secondarytext" style="color: #FF5400;">Home</a>
+                        <a href="" class="secondarytext">Packages</a>
+                        <a href="" class="secondarytext">Testimonial</a>
+                        <a href="" class="secondarytext">Blog</a>
+                        <a href="" class="secondarytext">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!-- banner sector -->
+        <div class="banner">
+            <div class="bannercontent">
+                <h1 class="headingtext" style="color: #fff;">Explore Your Travel</h1>
+                <p class="secondarytext" style="text-align: center;">In the heart of the unknown, a tavern awaits, where
+                    whispers of tales untold fill
+                    the air and every mug holds a sip of
+                    adventure.</p>
+                <div class="findsection">
+                    <div class="inputandbutton"><input type="text" placeholder="Where to go"></div>
+                    <div class="inputandbutton"><select name="when" id="" class="custom_select">
+                            <option value="" disabled selected> When</option>
+                            <option value="">at 08:00</option>
+                            <option value="">at 12:00</option>
+                            <option value="">at 16:00</option>
+                            <option value="">at 20:00</option>
+                            <option value="">at 24:00</option>
+                        </select></div>
+                    <div class="inputandbutton"><select name="select_type" id="" class="custom_select">
+                            <option value="" disabled selected> Select Type</option>
+                            <option value="">Solo</option>
+                            <option value="">Duo</option>
+                            <option value="">Trio</option>
+                            <option value="">Group</option>
+                        </select></div>
+                    <div class="inputandbutton">
+                        <button><span class="material-symbols-outlined">
+                                search
+                            </span>Find Now</button>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        <div class="rightarea">
-            <div class="nav_for_desktop">
+        <!-- Popular Tour sector -->
+        <div class="popular_tour">
+            <div class="popular_tour_text">
+                <h1 class="headingtext">Our Popular Tours</h1>
+                <p class="secondarytext">Embark on unforgettable journeys with our travel company's popular tour plans:
                 <ul>
-                    <li><a href="" class="secondarytext" style="color: #FF5400;">Home</a></li>
-                    <li><a href="" class="secondarytext">Packages</a></li>
-                    <li><a href="" class="secondarytext">Testimonial</a></li>
-                    <li><a href="" class="secondarytext">Blog</a></li>
-                    <li><a href="" class="secondarytext">Contact</a></li>
+                    <li><b>Cultural Odyssey:</b>Explore vibrant cities, historical landmarks, and local traditions for a
+                        deep cultural immersion.</li>
+                    <li><b>Epicurean Delights Tour:</b> Delight your taste buds with fine wines in Bordeaux, street food
+                        in
+                        Bangkok, and culinary experiences in Tuscany.</li>
+                    <li><b>Adventure Quest:</b> Satiate your thrill-seeking spirit with outdoor adventures, from
+                        Himalayan
+                        treks to Amazon explorations.</li>
                 </ul>
+                Discover the world in style with our diverse and curated tour plans, each promising unique and lasting
+                memories.</p>
+                <button class="shared_btn_css">Read More</button>
             </div>
-            <!-- took this idea from chatgpt but i write my code in my own -->
-            <div class="nav_for_mobile">
-                <div class="menu_icon"><img src="Images/menu.png"> </div>
-                <div class="mobile_nav">
-                    <a href="" class="secondarytext" style="color: #FF5400;">Home</a>
-                    <a href="" class="secondarytext">Packages</a>
-                    <a href="" class="secondarytext">Testimonial</a>
-                    <a href="" class="secondarytext">Blog</a>
-                    <a href="" class="secondarytext">Contact</a>
+            <div class="popular_image">
+                <img src="Images/Rectangle4.png" alt="">
+            </div>
+        </div>
+        <!-- choose your destination sector -->
+        <div class="choose_your_dest">
+            <div class="cyd_text">
+                <h1 class="headingtext">Choose Your Destination</h1>
+                <p class="secondarytext">Choose your destination with intention, for every path you take shapes the
+                    journey
+                    of your life. Let your heart guide
+                    you, and may the destination you choose be a reflection of your dreams and aspirations.</p>
+            </div>
+            <div class="cyd_image">
+                <div class="row_1">
+                    <div class="common_cyd_bg_properties Maldives">
+                        <h1 class="cyd_img_text">Maldives</h1>
+                    </div>
+                    <div class="common_cyd_bg_properties Indonesia">
+                        <h1 class="cyd_img_text">Indonesia</h1>
+                    </div>
+                </div>
+                <div class="row_2">
+                    <div class="common_cyd_bg_properties SriLanka">
+                        <h1 class="cyd_img_text">Sri Lanka</h1>
+                    </div>
+                    <div class="common_cyd_bg_properties NorthAmerica">
+                        <h1 class="cyd_img_text">North America</h1>
+                    </div>
+                    <div class="common_cyd_bg_properties Kashmir">
+                        <h1 class="cyd_img_text">Kashmir</h1>
+                    </div>
+                </div>
+                <div class="row_3">
+                    <div class="common_cyd_bg_properties Bangladesh">
+                        <h1 class="cyd_img_text">Bangladesh</h1>
+                    </div>
+                    <div class="common_cyd_bg_properties Bandarban">
+                        <h1 class="cyd_img_text">Bandarban</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Extra Features -->
+        <div class="Extra_features">
+            <div class="extra_headings">
+                <h1 class="headingtext">What's Extra</h1>
+                <p class="secondarytext">We can provide a vehicle for you. You can pick a vehicle for a short time. And
+                    also you can hire a photographer from us. It will make your trip more enjoyable and convenient.</p>
+            </div>
+            <div class="extra_contents">
+                <div class="extra_left">
+                    <h1 class="card_heading">You can hire:</h1>
+                    <p class="card_para">
+                    <ul>
+                        <li><b>Bike:</b>Explore the freedom of the open road by hiring a bike for your next adventure.
+                            Whether
+                            it's a scenic ride through the
+                            countryside or a thrilling urban exploration, renting a bike offers an eco-friendly and
+                            exhilarating
+                            way to experience
+                            the world.</li>
+                        <li><b>Car:</b>Embark on a journey with the convenience of a rented car, unlocking the
+                            flexibility
+                            to
+                            explore destinations at your own
+                            pace. From road trips to city escapades, renting a car provides the key to seamless and
+                            personalized
+                            travel
+                            experiences.</li>
+                        <li><b>photographer:</b>Capture the moments that matter with a skilled photographer who turns
+                            fleeting
+                            instances into timeless memories. From
+                            stunning portraits to dynamic event coverage, trust in the artistry of a photographer to
+                            tell
+                            your
+                            unique story through
+                            the lens.</li>
+                    </ul>
+                    </p>
+                    <div class="extra_feacture_icons">
+                        <div class="icons"><img src="Images/bike.png" alt=""></div>
+                        <div class="icons"><img src="Images/camera.png" alt=""></div>
+                        <div class="icons"><img src="Images/car.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="extra_right">
+                    <img src="Images/extra_right.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <!-- why choose us sector -->
+        <div class="choose_us">
+            <div class="upper_part">
+                <h1>Why Choose Us</h1>
+                <p>Discover the difference with Hexa Travels, where expertise meets innovation. Our seasoned
+                    professionals
+                    bring
+                    unparalleled knowledge in Hexa Travels, coupled with a commitment to cutting-edge technology,
+                    ensuring
+                    top-tier
+                    solutions that propel your success and exceed expectations.</p>
+            </div>
+            <div class="card_part">
+
+                <div class="wcu_card card_1">
+                    <img src="Images/hotel.png" alt="">
+                    <h3 class="card_heading">Handpicked Hotels</h3>
+                    <p class="card_para">Discover handpicked hotels that redefine luxury and comfort. Immerse yourself
+                        in a
+                        curated
+                        selection of accommodations,
+                        each offering a unique blend of elegance and personalized service.</p>
+                </div>
+                <div class="wcu_card card_2">
+                    <img src="Images/map.png" alt="">
+                    <h3 class="card_heading">World Class Service</h3>
+                    <p class="card_para">Experience world-class service that transcends expectations. Our commitment to
+                        excellence ensures
+                        every detail is
+                        meticulously attended to, creating a seamless and unparalleled guest journey.</p>
+                </div>
+                <div class="wcu_card card_3">
+                    <img src="Images/price.png" alt="">
+                    <h3 class="card_heading">Best Price Guarantee</h3>
+                    <p class="card_para">Rest easy with our Best Price Guarantee, ensuring you receive the most
+                        competitive
+                        rates for your
+                        accommodations. Book
+                        confidently, knowing that you won't find a better deal elsewhere.</p>
                 </div>
 
-            </div>
-        </div>
-    </nav>
-    <!-- banner sector -->
-    <div class="banner">
-        <div class="bannercontent">
-            <h1 class="headingtext" style="color: #fff;">Explore Your Travel</h1>
-            <p class="secondarytext" style="text-align: center;">In the heart of the unknown, a tavern awaits, where
-                whispers of tales untold fill
-                the air and every mug holds a sip of
-                adventure.</p>
-            <div class="findsection">
-                <div class="inputandbutton"><input type="text" placeholder="Where to go"></div>
-                <div class="inputandbutton"><select name="when" id="" class="custom_select">
-                        <option value="" disabled selected> When</option>
-                        <option value="">at 08:00</option>
-                        <option value="">at 12:00</option>
-                        <option value="">at 16:00</option>
-                        <option value="">at 20:00</option>
-                        <option value="">at 24:00</option>
-                    </select></div>
-                <div class="inputandbutton"><select name="select_type" id="" class="custom_select">
-                        <option value="" disabled selected> Select Type</option>
-                        <option value="">Solo</option>
-                        <option value="">Duo</option>
-                        <option value="">Trio</option>
-                        <option value="">Group</option>
-                    </select></div>
-                <div class="inputandbutton">
-                    <button><span class="material-symbols-outlined">
-                            search
-                        </span>Find Now</button>
-                </div>
+
 
             </div>
-        </div>
 
-    </div>
-    <!-- Popular Tour sector -->
-    <div class="popular_tour">
-        <div class="popular_tour_text">
-            <h1 class="headingtext">Our Popular Tours</h1>
-            <p class="secondarytext">Embark on unforgettable journeys with our travel company's popular tour plans:
-            <ul>
-                <li><b>Cultural Odyssey:</b>Explore vibrant cities, historical landmarks, and local traditions for a
-                    deep cultural immersion.</li>
-                <li><b>Epicurean Delights Tour:</b> Delight your taste buds with fine wines in Bordeaux, street food in
-                    Bangkok, and culinary experiences in Tuscany.</li>
-                <li><b>Adventure Quest:</b> Satiate your thrill-seeking spirit with outdoor adventures, from Himalayan
-                    treks to Amazon explorations.</li>
-            </ul>
-            Discover the world in style with our diverse and curated tour plans, each promising unique and lasting
-            memories.</p>
-            <button class="shared_btn_css">Read More</button>
         </div>
-        <div class="popular_image">
-            <img src="Images/Rectangle4.png" alt="">
-        </div>
-    </div>
-    <!-- choose your destination sector -->
-    <div class="choose_your_dest">
-        <div class="cyd_text">
-            <h1 class="headingtext">Choose Your Destination</h1>
-            <p class="secondarytext">Choose your destination with intention, for every path you take shapes the journey
-                of your life. Let your heart guide
-                you, and may the destination you choose be a reflection of your dreams and aspirations.</p>
-        </div>
-        <div class="cyd_image">
-            <div class="row_1">
-                <div class="common_cyd_bg_properties Maldives">
-                    <h1 class="cyd_img_text">Maldives</h1>
+        <!-- deals and discount sector -->
+        <div class="deals_and_discount">
+            <div class="dnd_text">
+                <h1>Deals & Discounts</h1>
+                <p>"Discover unbeatable deals and exclusive discounts, turning every purchase into a rewarding
+                    experience.
+                    Save big while
+                    enjoying top-notch products and services with our enticing offers."</p>
+            </div>
+            <div class="dnd_img">
+                <div class="dndc_bg dnd_card1">
+                    <div class=" dnd_card_info">
+                        <div class="dnd_heading_info">
+                            <img src="Images/Frame.svg" alt="">
+                            <p>7 Day / 6 Night</p>
+                            <img src="Images/Frame(1).svg" alt="">
+                            <p>Max : 10</p>
+                            <img src="Images/Frame(2).svg" alt="">
+                            <p>Bangladesh</p>
+                        </div>
+                        <div class="dnd_description">
+                            <h1 class="card_heading">Tour To Dhaka</h1>
+                            <p class="card_para">Dhaka, Bangladesh's capital, beckons with its historic Lalbagh Fort and
+                                Ahsan Manzil, offering a captivating blend of
+                                cultural heritage and bustling urban charm for tourists.</p>
+                            <p class="dnd_price">Price: $1300-$1500</p>
+                            <button class="shared_btn_css">Book Now</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="common_cyd_bg_properties Indonesia">
-                    <h1 class="cyd_img_text">Indonesia</h1>
+                <div class="dndc_bg dnd_card2">
+                    <div class="dnd_card_info" style="float: left;">
+                        <div class="dnd_heading_info">
+                            <img src="Images/Frame.svg" alt="">
+                            <p>7 Day / 6 Night</p>
+                            <img src="Images/Frame(1).svg" alt="">
+                            <p>Max : 10</p>
+                            <img src="Images/Frame(2).svg" alt="">
+                            <p>Bangladesh</p>
+                        </div>
+                        <div class="dnd_description">
+                            <h1 class="card_heading">Tour To Sylhet</h1>
+                            <p class="card_para">Sylhet, in northeastern Bangladesh, charms with its lush tea gardens,
+                                picturesque hills, and cultural gems like Ratargul
+                                Swamp Forest. This region is a captivating blend of natural beauty and historical
+                                richness.
+                            </p>
+                            <p class="dnd_price">Price: $1300-$1500</p>
+                            <button class="shared_btn_css">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dndc_bg dnd_card3">
+                    <div class="dnd_card_info">
+                        <div class="dnd_heading_info">
+                            <img src="Images/Frame.svg" alt="">
+                            <p>7 Day / 6 Night</p>
+                            <img src="Images/Frame(1).svg" alt="">
+                            <p>Max : 10</p>
+                            <img src="Images/Frame(2).svg" alt="">
+                            <p>Bangladesh</p>
+                        </div>
+                        <div class="dnd_description">
+                            <h1 class="card_heading">Tour To Khulna</h1>
+                            <p class="card_para">Khulna, a city in southwestern Bangladesh, serves as the gateway to the
+                                Sundarbans, the world's largest mangrove forest.
+                                Known for its riverine beauty, Khulna offers a unique blend of natural wonders and
+                                cultural
+                                experiences for visitors.</p>
+                            <p class="dnd_price">Price: $1300-$1500</p>
+                            <button class="shared_btn_css">Book Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row_2">
-                <div class="common_cyd_bg_properties SriLanka">
-                    <h1 class="cyd_img_text">Sri Lanka</h1>
-                </div>
-                <div class="common_cyd_bg_properties NorthAmerica">
-                    <h1 class="cyd_img_text">North America</h1>
-                </div>
-                <div class="common_cyd_bg_properties Kashmir">
-                    <h1 class="cyd_img_text">Kashmir</h1>
-                </div>
-            </div>
-            <div class="row_3">
-                <div class="common_cyd_bg_properties Bangladesh">
-                    <h1 class="cyd_img_text">Bangladesh</h1>
-                </div>
-                <div class="common_cyd_bg_properties Bandarban">
-                    <h1 class="cyd_img_text">Bandarban</h1>
-                </div>
-            </div>
+            <button class="shared_btn_css" style="width: auto;">See All Packages</button>
         </div>
-    </div>
-    <!-- Extra Features -->
-    <div class="Extra_features">
-        <div class="extra_headings">
-            <h1 class="headingtext">What's Extra</h1>
-            <p class="secondarytext">We can provide a vehicle for you. You can pick a vehicle for a short time. And
-                also you can hire a photographer from us. It will make your trip more enjoyable and convenient.</p>
-        </div>
-        <div class="extra_contents">
-            <div class="extra_left">
-                <h1 class="card_heading">You can hire:</h1>
-                <p class="card_para">
-                <ul>
-                    <li><b>Bike:</b>Explore the freedom of the open road by hiring a bike for your next adventure.
-                        Whether
-                        it's a scenic ride through the
-                        countryside or a thrilling urban exploration, renting a bike offers an eco-friendly and
-                        exhilarating
-                        way to experience
-                        the world.</li>
-                    <li><b>Car:</b>Embark on a journey with the convenience of a rented car, unlocking the flexibility
-                        to
-                        explore destinations at your own
-                        pace. From road trips to city escapades, renting a car provides the key to seamless and
-                        personalized
-                        travel
-                        experiences.</li>
-                    <li><b>photographer:</b>Capture the moments that matter with a skilled photographer who turns
-                        fleeting
-                        instances into timeless memories. From
-                        stunning portraits to dynamic event coverage, trust in the artistry of a photographer to tell
-                        your
-                        unique story through
-                        the lens.</li>
-                </ul>
+        <!-- get lost sector -->
+        <div class="get_lost">
+            <div class="getlost_content">
+                <h1 class="headingtext">A Simple Perfect Place To Get Lost</h1>
+                <p class="secondarytext">
+                    Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                    sagittis
+                    dignissim
+                    adipiscing quis.
+                    <b>
+                        <ul>
+                            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
+                                suspendisse nullam.</li>
+                            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
+                                suspendisse nullam.</li>
+                        </ul>
+                    </b>
                 </p>
-                <div class="extra_feacture_icons">
-                    <div class="icons"><img src="Images/bike.png" alt=""></div>
-                    <div class="icons"><img src="Images/camera.png" alt=""></div>
-                    <div class="icons"><img src="Images/car.png" alt=""></div>
-                </div>
+                <button class="shared_btn_css">See More</button>
             </div>
-            <div class="extra_right">
-                <img src="Images/extra_right.jpg" alt="">
+            <div class="getlost_video">
+                <iframe width="800px" height="450px" src="https://www.youtube.com/embed/puDBmnIXe_k?si=LpF-x3MRsENfWupx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </div>
-
-
-    </div>
-    <!-- why choose us sector -->
-    <div class="choose_us">
-        <div class="upper_part">
-            <h1>Why Choose Us</h1>
-            <p>Discover the difference with Hexa Travels, where expertise meets innovation. Our seasoned professionals
-                bring
-                unparalleled knowledge in Hexa Travels, coupled with a commitment to cutting-edge technology, ensuring
-                top-tier
-                solutions that propel your success and exceed expectations.</p>
-        </div>
-        <div class="card_part">
-
-            <div class="wcu_card card_1">
-                <img src="Images/hotel.png" alt="">
-                <h3 class="card_heading">Handpicked Hotels</h3>
-                <p class="card_para">Discover handpicked hotels that redefine luxury and comfort. Immerse yourself in a
-                    curated
-                    selection of accommodations,
-                    each offering a unique blend of elegance and personalized service.</p>
+        <!-- newsletter sector -->
+        <div class="newsletter">
+            <div class="newsletter_left">
+                <h3 class="card_heading">Newsletter</h3>
+                <p class="card_para">Subscribe us! Remember money is not necessary to subscribe and get in touch with
+                    us.
+                </p>
+                <hr>
+                <input type="text" placeholder="Enter Your Name">
+                <input type="text" placeholder="Enter Your Email">
+                <button class="shared_btn_css">Subscribe</button>
             </div>
-            <div class="wcu_card card_2">
-                <img src="Images/map.png" alt="">
-                <h3 class="card_heading">World Class Service</h3>
-                <p class="card_para">Experience world-class service that transcends expectations. Our commitment to
-                    excellence ensures
-                    every detail is
-                    meticulously attended to, creating a seamless and unparalleled guest journey.</p>
-            </div>
-            <div class="wcu_card card_3">
-                <img src="Images/price.png" alt="">
-                <h3 class="card_heading">Best Price Guarantee</h3>
-                <p class="card_para">Rest easy with our Best Price Guarantee, ensuring you receive the most competitive
-                    rates for your
-                    accommodations. Book
-                    confidently, knowing that you won't find a better deal elsewhere.</p>
-            </div>
-
-
-
-        </div>
-
-    </div>
-    <!-- deals and discount sector -->
-    <div class="deals_and_discount">
-        <div class="dnd_text">
-            <h1>Deals & Discounts</h1>
-            <p>"Discover unbeatable deals and exclusive discounts, turning every purchase into a rewarding experience.
-                Save big while
-                enjoying top-notch products and services with our enticing offers."</p>
-        </div>
-        <div class="dnd_img">
-            <div class="dndc_bg dnd_card1">
-                <div class=" dnd_card_info">
-                    <div class="dnd_heading_info">
-                        <img src="Images/Frame.svg" alt="">
-                        <p>7 Day / 6 Night</p>
-                        <img src="Images/Frame(1).svg" alt="">
-                        <p>Max : 10</p>
-                        <img src="Images/Frame(2).svg" alt="">
-                        <p>Bangladesh</p>
-                    </div>
-                    <div class="dnd_description">
-                        <h1 class="card_heading">Tour To Dhaka</h1>
-                        <p class="card_para">Dhaka, Bangladesh's capital, beckons with its historic Lalbagh Fort and
-                            Ahsan Manzil, offering a captivating blend of
-                            cultural heritage and bustling urban charm for tourists.</p>
-                        <p class="dnd_price">Price: $1300-$1500</p>
-                        <button class="shared_btn_css">Book Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="dndc_bg dnd_card2">
-                <div class="dnd_card_info" style="float: left;">
-                    <div class="dnd_heading_info">
-                        <img src="Images/Frame.svg" alt="">
-                        <p>7 Day / 6 Night</p>
-                        <img src="Images/Frame(1).svg" alt="">
-                        <p>Max : 10</p>
-                        <img src="Images/Frame(2).svg" alt="">
-                        <p>Bangladesh</p>
-                    </div>
-                    <div class="dnd_description">
-                        <h1 class="card_heading">Tour To Sylhet</h1>
-                        <p class="card_para">Sylhet, in northeastern Bangladesh, charms with its lush tea gardens,
-                            picturesque hills, and cultural gems like Ratargul
-                            Swamp Forest. This region is a captivating blend of natural beauty and historical richness.
-                        </p>
-                        <p class="dnd_price">Price: $1300-$1500</p>
-                        <button class="shared_btn_css">Book Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="dndc_bg dnd_card3">
-                <div class="dnd_card_info">
-                    <div class="dnd_heading_info">
-                        <img src="Images/Frame.svg" alt="">
-                        <p>7 Day / 6 Night</p>
-                        <img src="Images/Frame(1).svg" alt="">
-                        <p>Max : 10</p>
-                        <img src="Images/Frame(2).svg" alt="">
-                        <p>Bangladesh</p>
-                    </div>
-                    <div class="dnd_description">
-                        <h1 class="card_heading">Tour To Khulna</h1>
-                        <p class="card_para">Khulna, a city in southwestern Bangladesh, serves as the gateway to the
-                            Sundarbans, the world's largest mangrove forest.
-                            Known for its riverine beauty, Khulna offers a unique blend of natural wonders and cultural
-                            experiences for visitors.</p>
-                        <p class="dnd_price">Price: $1300-$1500</p>
-                        <button class="shared_btn_css">Book Now</button>
-                    </div>
+            <div class="newsletter_right">
+                <div class="badge">
+                    <h4>HexaTravels.com</h4>
+                    <h2>Save Up to 70%</h2>
                 </div>
             </div>
         </div>
-        <button class="shared_btn_css" style="width: auto;">See All Packages</button>
-    </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer_div">
+            <div class="footer_company_name">
+                <img src="Images/Group400712.png">
+                <h1 class="headingtext">Hexa <span style="color: #FF5400;">Travel</span></h1>
+            </div>
+            <p>"Empowering global exploration through seamless, unforgettable travel experiences that inspire a lifelong
+                love for
+                discovery and connection."</p>
+            <div class="footer_icons">
+                <img src="Images/Social.svg" alt="">
+            </div>
+            <hr>
+            <p>2017, All Rights Reserved.</p>
+        </div>
+    </footer>
 
 
 </body>
